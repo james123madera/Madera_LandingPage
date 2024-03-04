@@ -1,7 +1,7 @@
 const letters = document.querySelectorAll('.letter');
 
 letters.forEach(letter => {
-    letter.addEventListener('click', () => {
+    letter.addEventListener('mouseover', () => {
         letter.classList.add('active');
         setTimeout(() => {
             letter.classList.remove('active');
@@ -10,7 +10,7 @@ letters.forEach(letter => {
 });
 
 document.querySelectorAll('.letter').forEach(letter => {
-    letter.addEventListener('click', () => {
+    letter.addEventListener('mouseover', () => {
         letter.style.animation = 'jump 1s ease-in-out';
     });
 });
