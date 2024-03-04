@@ -3,7 +3,7 @@ const letters = document.querySelectorAll('.letter');
 letters.forEach(letter => {
     letter.addEventListener('mouseover', () => {
         letter.classList.add('active');
-        setTimeout(() => {
+        setTimeout((5s) => {
             letter.classList.remove('active');
         }, 1000); // Remove 'active' class after 1 second
     });
