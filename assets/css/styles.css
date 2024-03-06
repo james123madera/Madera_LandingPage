@@ -27,7 +27,11 @@ html {
 }
 
 body {
-  background: #be245f;
+  background: url('/assets/images/bini_bgmain.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 section {
